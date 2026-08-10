@@ -1,0 +1,11 @@
+# --- needed by the daily workflow (lightweight) ---
+requests==2.32.3
+beautifulsoup4==4.12.3
+pyfiglet==1.0.2
+
+# --- portrait pipeline only; run locally when you swap in a photo ---
+# (not installed by the workflow — keeps CI fast)
+pillow
+numpy
+opencv-python-headless
+rembg
